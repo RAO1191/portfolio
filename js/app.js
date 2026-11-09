@@ -1,5 +1,6 @@
 const L = {
 pt: {
+menu: 'Abrir menu',
 nav: [
 { label: 'História', href: '#historia' }, { label: 'Sobre mim', href: '#sobre' }, { label: 'Projetos', href: '#projetos' }, { label: 'Competências', href: '#competencias' }, { label: 'Contato', href: '#contato' }
 ],
@@ -23,8 +24,8 @@ chapters: [
 },
 about: {
 eyebrow: 'Sobre mim', title: 'Eu sou o Rodrigo. Esta é a minha história.',
-photo1: 'Espaço para a sua foto', photo1Alt: 'Espaço reservado para a foto de Rodrigo', cap1: 'Rodrigo Alves de Oliveira',
-photo2: 'Espaço para a foto da família', photo2Alt: 'Espaço reservado para a foto da família', cap2: 'Minha família',
+photo1: 'Espaço para a sua foto', photo1Alt: 'Rodrigo sorrindo, de braços cruzados, em um centro de distribuição', cap1: 'Rodrigo Alves de Oliveira',
+photo2: 'Espaço para a foto da família', photo2Alt: 'Rodrigo com a esposa e os dois filhos, sorrindo em frente a um lago', cap2: 'Minha família',
 faithTitle: 'Fé e serviço',
 faithText: 'Sou cristão e sirvo no ministério de mídia da minha igreja, onde cuido de foto, vídeo e comunicação digital. Também lidero jovens ao lado da minha esposa: é ali que aprendo, todos os dias, a ouvir, orientar e servir.',
 photo3: 'Foto no ministério de mídia', photo3Alt: 'Espaço reservado para foto no ministério de mídia', cap3: 'Ministério de mídia',
@@ -86,6 +87,7 @@ langs: { title: 'Idiomas', lines: [{ text: 'Português: nativo' }, { text: 'Ingl
 contact: { title: 'Vamos construir algo juntos?', sub: 'Aberto a oportunidades em TI. Escreva pelo canal que preferir.', footer: 'Belo Horizonte, MG · Brasil' }
 },
 en: {
+menu: 'Open menu',
 nav: [
 { label: 'Story', href: '#historia' }, { label: 'About', href: '#sobre' }, { label: 'Projects', href: '#projetos' }, { label: 'Skills', href: '#competencias' }, { label: 'Contact', href: '#contato' }
 ],
@@ -109,8 +111,8 @@ chapters: [
 },
 about: {
 eyebrow: 'About me', title: "I'm Rodrigo. This is my story.",
-photo1: 'Space for your photo', photo1Alt: 'Reserved space for a photo of Rodrigo', cap1: 'Rodrigo Alves de Oliveira',
-photo2: 'Space for the family photo', photo2Alt: 'Reserved space for the family photo', cap2: 'My family',
+photo1: 'Space for your photo', photo1Alt: 'Rodrigo smiling with arms crossed in a distribution center', cap1: 'Rodrigo Alves de Oliveira',
+photo2: 'Space for the family photo', photo2Alt: 'Rodrigo with his wife and two children, smiling in front of a lake', cap2: 'My family',
 faithTitle: 'Faith and service',
 faithText: 'I am a Christian and I serve in my church\'s media ministry, handling photo, video and digital communication. I also lead young people together with my wife, which is where I learn every day to listen, guide and serve.',
 photo3: 'Photo in the media ministry', photo3Alt: 'Reserved space for a photo in the media ministry', cap3: 'Media ministry',
@@ -172,6 +174,7 @@ langs: { title: 'Languages', lines: [{ text: 'Portuguese: native' }, { text: 'En
 contact: { title: "Let's build something together?", sub: 'Open to IT opportunities. Reach out through the channel you prefer.', footer: 'Belo Horizonte, MG · Brazil' }
 },
 fr: {
+menu: 'Ouvrir le menu',
 nav: [
 { label: 'Histoire', href: '#historia' }, { label: 'À propos', href: '#sobre' }, { label: 'Projets', href: '#projetos' }, { label: 'Compétences', href: '#competencias' }, { label: 'Contact', href: '#contato' }
 ],
@@ -195,8 +198,8 @@ chapters: [
 },
 about: {
 eyebrow: 'À propos', title: "Je suis Rodrigo. Voici mon histoire.",
-photo1: 'Espace pour votre photo', photo1Alt: 'Espace réservé pour la photo de Rodrigo', cap1: 'Rodrigo Alves de Oliveira',
-photo2: 'Espace pour la photo de famille', photo2Alt: 'Espace réservé pour la photo de famille', cap2: 'Ma famille',
+photo1: 'Espace pour votre photo', photo1Alt: 'Rodrigo souriant, bras croisés, dans un centre de distribution', cap1: 'Rodrigo Alves de Oliveira',
+photo2: 'Espace pour la photo de famille', photo2Alt: 'Rodrigo avec son épouse et ses deux enfants, souriant devant un lac', cap2: 'Ma famille',
 faithTitle: 'Foi et service',
 faithText: "Je suis chrétien et je sers dans le ministère des médias de mon église, où je m'occupe de la photo, de la vidéo et de la communication numérique. J'accompagne aussi des jeunes avec mon épouse : c'est là que j'apprends chaque jour à écouter, guider et servir.",
 photo3: 'Photo au ministère des médias', photo3Alt: 'Espace réservé pour une photo au ministère des médias', cap3: 'Ministère des médias',
@@ -331,7 +334,16 @@ function paint() {
   tplEl.content.childNodes.forEach((c) => render(c, v, frag));
   app.replaceChildren(frag);
 }
+function setMenu(open) {
+  const hdr = document.querySelector('.hdr');
+  if (!hdr) return;
+  hdr.classList.toggle('open', open);
+  hdr.querySelector('.menu-btn').setAttribute('aria-expanded', open ? 'true' : 'false');
+}
+document.addEventListener('keydown', (e) => { if (e.key === 'Escape') setMenu(false); });
 document.addEventListener('click', (e) => {
+  if (e.target.closest('.menu-btn')) { setMenu(!document.querySelector('.hdr').classList.contains('open')); return; }
+  if (e.target.closest('.menu a') || !e.target.closest('.hdr')) setMenu(false);
   const b = e.target.closest('button[data-lang]');
   if (!b) return;
   state.lang = b.getAttribute('data-lang');

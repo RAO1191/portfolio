@@ -49,7 +49,7 @@ Salve as imagens em `assets/img/` com estes nomes (JPG):
 | Arquivo | Uso | Proporção |
 | --- | --- | --- |
 | `rodrigo.jpg` | Retrato | 4:5 (vertical) |
-| `familia.jpg` | Família | 16:10 (horizontal) |
+| `familia.jpg` | Família | 1:1 (quadrada) |
 | `midia.jpg` | Ministério de mídia | 4:3 |
 | `jovens.jpg` | Liderança de jovens | 4:3 |
 

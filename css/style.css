@@ -44,5 +44,31 @@ a:hover{text-decoration:underline}
 .card:hover,.btn:hover{translate:none}
 .card:hover svg{transform:none}
 }
-html{scroll-behavior:smooth}
+html{scroll-behavior:smooth;scroll-padding-top:76px}
+
+/* Quando a foto existe, some a borda tracejada do espaço reservado */
+[data-photo]:has(img){border:0 !important;padding:0 !important;background:#0E0E18 !important}
+
+/* Nomes das camadas do desenho do topo: maiores no celular */
+@media (max-width:600px){.stack text{font-size:23px}}
+
+/* Topo fixo + menu (hambúrguer no celular) */
+.site-header{position:sticky;top:0;z-index:50;background:rgba(7,7,13,.9);-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);border-bottom:1px solid rgba(42,42,64,.7)}
+.hdr{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px 28px;padding-top:14px;padding-bottom:14px}
+.menu{display:flex;flex-wrap:wrap;gap:6px 22px;font-size:15px}
+.menu a{padding:8px 0}
+.langs{display:flex;gap:6px}
+.menu-btn{display:none}
+@media (max-width:820px){
+.hdr{gap:0 12px;padding-top:10px;padding-bottom:10px}
+.brand{margin-right:auto}
+.menu-btn{display:inline-flex;align-items:center;justify-content:center;width:44px;height:44px;padding:0;border:1.5px solid #2A2A40;border-radius:12px;background:transparent;color:#FFFFFF;cursor:pointer}
+.menu-btn .i-close,.hdr.open .menu-btn .i-open{display:none}
+.hdr.open .menu-btn .i-close{display:block}
+.hdr.open .menu-btn{border-color:#C6FF3D;color:#C6FF3D}
+.menu,.langs{display:none;flex-basis:100%}
+.hdr.open .menu{display:flex;flex-direction:column;gap:0;margin-top:10px;font-size:18px}
+.hdr.open .menu a{padding:14px 0;border-top:1px solid #2A2A40}
+.hdr.open .langs{display:flex;gap:8px;padding:12px 0 8px;border-top:1px solid #2A2A40}
+}
 @media (prefers-reduced-motion: reduce){html{scroll-behavior:auto}}
