@@ -167,8 +167,8 @@
 <div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px"><h3 style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 20px; line-height: 1.25; color: #FFFFFF">{{p.name}}</h3><span class="chip">{{p.status}}</span></div>
 <p style="margin: 0; font-size: 15px; color: #A9A9C4">{{p.desc}}</p>
 <p style="margin: 0; font-size: 13.5px; color: #8C8CAA">{{p.tags}}</p>
-<sc-if value="{{p.hasLink}}" hint-placeholder-val="{{ false }}">
-<a href="https://github.com/RAO1191/igreja-connect" style="font-size: 14px; font-weight: 600; color: #C6FF3D">github.com/RAO1191/igreja-connect</a>
+<sc-if value="{{p.link}}" hint-placeholder-val="{{ false }}">
+<a href="{{p.link}}" target="_blank" rel="noopener" style="margin-top: auto; font-size: 14px; font-weight: 600; color: #C6FF3D">{{p.linkLabel}}</a>
 </sc-if>
 </article>
 </sc-for>

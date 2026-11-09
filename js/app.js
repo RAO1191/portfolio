@@ -43,19 +43,18 @@ stats: [
 { n: '12+', l: 'anos de experiência em TI' },
 { n: '2', l: 'formações: tecnologia e administração' },
 { n: '10+', l: 'cursos e certificações em dados, BI e processos' },
-{ n: '5', l: 'projetos próprios, no ar ou em desenvolvimento' }
+{ n: '4', l: 'projetos próprios, no ar ou em desenvolvimento' }
 ]
 },
 projects: {
 eyebrow: 'Projetos', title: 'Coisas que eu construí',
 intro: 'Cada projeto parte de um problema real. Os que ainda estão em desenvolvimento aparecem sinalizados.',
 items: [
-{ name: 'MeuBolso', status: 'No ar', desc: 'Aplicativo web instalável (PWA) de finanças pessoais, integrado à Claude API.', tags: 'PWA · Supabase · Claude API · Netlify', hasLink: false },
-{ name: 'SaaS de PDV e delivery', status: 'Em desenvolvimento', desc: 'Sistema multi-cliente para pizzarias e hamburguerias: pedidos por telefone, WhatsApp e app, pagamentos Pix e cartão, estoque e app do motoboy.', tags: 'SaaS · Apps móveis · Pix', hasLink: false },
-{ name: 'CRM para elétrica e automação', status: 'Em desenvolvimento', desc: 'SaaS multiempresa com contas a pagar e receber e app offline para técnicos de campo.', tags: 'SaaS · Financeiro · Modo offline', hasLink: false },
-{ name: 'igreja-connect', status: 'Em desenvolvimento', desc: 'App Flutter para gestão de igrejas, em preparação para publicação na Google Play.', tags: 'Flutter · Google Play · GitHub', hasLink: true },
-{ name: 'ApuraçãoEleitoral', status: 'Campanha 2026', desc: 'Painel de monitoramento de resultados em tempo real, com coletor em VPS, Firestore e exibição em telão, desenhado para evitar bloqueio de IP.', tags: 'VPS · Firestore · Tempo real', hasLink: false },
-{ name: 'Gestão de TI corporativa', status: 'Mello Transportes', desc: 'Microsoft 365 e Exchange Online, proteção de endpoints com Bitdefender GravityZone, monitoramento com Grafana e gestão de fornecedores.', tags: 'Microsoft 365 · Bitdefender · Grafana', hasLink: false }
+{ icon: 2, name: 'SaaS de PDV e delivery', status: 'Em desenvolvimento', desc: 'Sistema multi-cliente para pizzarias e hamburguerias: pedidos por telefone, WhatsApp e app, pagamentos Pix e cartão, estoque e app do motoboy.', tags: 'SaaS · Apps móveis · Pix' },
+{ icon: 3, name: 'CRM para elétrica e automação', status: 'Em desenvolvimento', desc: 'SaaS multiempresa com contas a pagar e receber e app offline para técnicos de campo.', tags: 'SaaS · Financeiro · Modo offline' },
+{ icon: 4, name: 'igreja-connect', status: 'No ar', desc: 'App Flutter para gestão de igrejas, publicado na Google Play como Graça & Paz: Bíblia, eventos, avisos e trilhas.', tags: 'Flutter · Android · Google Play', link: 'https://play.google.com/store/apps/details?id=br.com.gracaepaz.app', linkLabel: 'Ver na Google Play →' },
+{ icon: 5, name: 'ApuraçãoEleitoral', status: 'Campanha 2026', desc: 'Painel de monitoramento de resultados em tempo real, com coletor em VPS, Firestore e exibição em telão, desenhado para evitar bloqueio de IP.', tags: 'VPS · Firestore · Tempo real' },
+{ icon: 6, name: 'Gestão de TI corporativa', status: 'Mello Transportes', desc: 'Microsoft 365 e Exchange Online, proteção de endpoints com Bitdefender GravityZone, monitoramento com Grafana e gestão de fornecedores.', tags: 'Microsoft 365 · Bitdefender · Grafana' }
 ]
 },
 skills: {
@@ -130,19 +129,18 @@ stats: [
 { n: '12+', l: 'years of IT experience' },
 { n: '2', l: 'degrees: technology and business' },
 { n: '10+', l: 'courses and certifications in data, BI and processes' },
-{ n: '5', l: 'projects of my own, live or in development' }
+{ n: '4', l: 'projects of my own, live or in development' }
 ]
 },
 projects: {
 eyebrow: 'Projects', title: 'Things I have built',
 intro: 'Each project starts from a real problem. The ones still under development are labeled.',
 items: [
-{ name: 'MeuBolso', status: 'Live', desc: 'Installable web app (PWA) for personal finance, integrated with the Claude API.', tags: 'PWA · Supabase · Claude API · Netlify', hasLink: false },
-{ name: 'POS and delivery SaaS', status: 'In development', desc: 'Multi-client system for pizzerias and burger shops: phone, WhatsApp and app orders, Pix and card payments, inventory and a delivery-driver app.', tags: 'SaaS · Mobile apps · Pix', hasLink: false },
-{ name: 'CRM for electrical and automation companies', status: 'In development', desc: 'Multi-company SaaS with accounts payable and receivable and an offline app for field technicians.', tags: 'SaaS · Finance · Offline mode', hasLink: false },
-{ name: 'igreja-connect', status: 'In development', desc: 'Flutter app for church management, being prepared for release on Google Play.', tags: 'Flutter · Google Play · GitHub', hasLink: true },
-{ name: 'ApuraçãoEleitoral', status: '2026 campaign', desc: 'Real-time election results monitor, with a VPS collector, Firestore and big-screen display, designed to avoid IP blocking.', tags: 'VPS · Firestore · Real time', hasLink: false },
-{ name: 'Corporate IT management', status: 'Mello Transportes', desc: 'Microsoft 365 and Exchange Online, endpoint protection with Bitdefender GravityZone, monitoring with Grafana and vendor management.', tags: 'Microsoft 365 · Bitdefender · Grafana', hasLink: false }
+{ icon: 2, name: 'POS and delivery SaaS', status: 'In development', desc: 'Multi-client system for pizzerias and burger shops: phone, WhatsApp and app orders, Pix and card payments, inventory and a delivery-driver app.', tags: 'SaaS · Mobile apps · Pix' },
+{ icon: 3, name: 'CRM for electrical and automation companies', status: 'In development', desc: 'Multi-company SaaS with accounts payable and receivable and an offline app for field technicians.', tags: 'SaaS · Finance · Offline mode' },
+{ icon: 4, name: 'igreja-connect', status: 'Live', desc: 'Flutter app for church management, published on Google Play as Graça & Paz: Bible, events, announcements and learning tracks.', tags: 'Flutter · Android · Google Play', link: 'https://play.google.com/store/apps/details?id=br.com.gracaepaz.app', linkLabel: 'View on Google Play →' },
+{ icon: 5, name: 'ApuraçãoEleitoral', status: '2026 campaign', desc: 'Real-time election results monitor, with a VPS collector, Firestore and big-screen display, designed to avoid IP blocking.', tags: 'VPS · Firestore · Real time' },
+{ icon: 6, name: 'Corporate IT management', status: 'Mello Transportes', desc: 'Microsoft 365 and Exchange Online, endpoint protection with Bitdefender GravityZone, monitoring with Grafana and vendor management.', tags: 'Microsoft 365 · Bitdefender · Grafana' }
 ]
 },
 skills: {
@@ -217,19 +215,18 @@ stats: [
 { n: '12+', l: "ans d'expérience en TI" },
 { n: '2', l: 'diplômes : technologie et administration' },
 { n: '10+', l: 'cours et certifications en données, BI et processus' },
-{ n: '5', l: 'projets personnels, en ligne ou en développement' }
+{ n: '4', l: 'projets personnels, en ligne ou en développement' }
 ]
 },
 projects: {
 eyebrow: 'Projets', title: "Ce que j'ai construit",
 intro: "Chaque projet part d'un problème réel. Ceux qui sont encore en développement sont signalés.",
 items: [
-{ name: 'MeuBolso', status: 'En ligne', desc: "Application web installable (PWA) de finances personnelles, intégrée à l'API Claude.", tags: 'PWA · Supabase · API Claude · Netlify', hasLink: false },
-{ name: 'SaaS de caisse et livraison', status: 'En développement', desc: "Système multi-clients pour pizzerias et burgers : commandes par téléphone, WhatsApp et application, paiements Pix et carte, stocks et application pour livreurs.", tags: 'SaaS · Applications mobiles · Pix', hasLink: false },
-{ name: 'CRM pour électricité et automatisation', status: 'En développement', desc: "SaaS multi-entreprises avec comptabilité fournisseurs et clients et application hors ligne pour les techniciens de terrain.", tags: 'SaaS · Finance · Mode hors ligne', hasLink: false },
-{ name: 'igreja-connect', status: 'En développement', desc: "Application Flutter de gestion d'églises, en préparation pour sa publication sur Google Play.", tags: 'Flutter · Google Play · GitHub', hasLink: true },
-{ name: 'ApuraçãoEleitoral', status: 'Campagne 2026', desc: "Tableau de suivi des résultats électoraux en temps réel, avec collecteur sur VPS, Firestore et affichage sur grand écran, conçu pour éviter les blocages d'IP.", tags: 'VPS · Firestore · Temps réel', hasLink: false },
-{ name: "Gestion informatique d'entreprise", status: 'Mello Transportes', desc: "Microsoft 365 et Exchange Online, protection des postes avec Bitdefender GravityZone, supervision avec Grafana et gestion des fournisseurs.", tags: 'Microsoft 365 · Bitdefender · Grafana', hasLink: false }
+{ icon: 2, name: 'SaaS de caisse et livraison', status: 'En développement', desc: "Système multi-clients pour pizzerias et burgers : commandes par téléphone, WhatsApp et application, paiements Pix et carte, stocks et application pour livreurs.", tags: 'SaaS · Applications mobiles · Pix' },
+{ icon: 3, name: 'CRM pour électricité et automatisation', status: 'En développement', desc: "SaaS multi-entreprises avec comptabilité fournisseurs et clients et application hors ligne pour les techniciens de terrain.", tags: 'SaaS · Finance · Mode hors ligne' },
+{ icon: 4, name: 'igreja-connect', status: 'En ligne', desc: "Application Flutter de gestion d'églises, publiée sur Google Play sous le nom Graça & Paz : Bible, événements, annonces et parcours.", tags: 'Flutter · Android · Google Play', link: 'https://play.google.com/store/apps/details?id=br.com.gracaepaz.app', linkLabel: 'Voir sur Google Play →' },
+{ icon: 5, name: 'ApuraçãoEleitoral', status: 'Campagne 2026', desc: "Tableau de suivi des résultats électoraux en temps réel, avec collecteur sur VPS, Firestore et affichage sur grand écran, conçu pour éviter les blocages d'IP.", tags: 'VPS · Firestore · Temps réel' },
+{ icon: 6, name: "Gestion informatique d'entreprise", status: 'Mello Transportes', desc: "Microsoft 365 et Exchange Online, protection des postes avec Bitdefender GravityZone, supervision avec Grafana et gestion des fournisseurs.", tags: 'Microsoft 365 · Bitdefender · Grafana' }
 ]
 },
 skills: {
@@ -280,7 +277,7 @@ function vals() {
   const lang = state.lang, base = L[lang];
   const t = Object.assign({}, base, {
     hero: Object.assign({}, base.hero, { words: base.hero.words.map((w, i) => ({ text: w, delay: DELAYS[i] })) }),
-    projects: Object.assign({}, base.projects, { items: base.projects.items.map((it, i) => Object.assign({}, it, { a1: i === 0, a2: i === 1, a3: i === 2, a4: i === 3, a5: i === 4, a6: i === 5 })) })
+    projects: Object.assign({}, base.projects, { items: base.projects.items.map((it, i) => Object.assign({}, it, { a1: it.icon === 1, a2: it.icon === 2, a3: it.icon === 3, a4: it.icon === 4, a5: it.icon === 5, a6: it.icon === 6 })) })
   });
   const langs = ['pt', 'en', 'fr'].map((c) => {
     const on = c === lang;
