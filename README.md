@@ -50,7 +50,7 @@ Salve as imagens em `assets/img/` com estes nomes (JPG):
 | --- | --- | --- |
 | `rodrigo.jpg` | Retrato | 4:5 (vertical) |
 | `familia.jpg` | Família | 1:1 (quadrada) |
-| `midia.jpg` | Ministério de mídia | 4:3 |
+| `midia.jpg` | Tecnologia na igreja | 4:3 |
 | `jovens.jpg` | Liderança de jovens | 4:3 |
 
 Enquanto o arquivo não existir, aparece o espaço reservado. Use fotos com até ~300 KB. Se houver menores de idade nas fotos, tenha autorização dos responsáveis.
