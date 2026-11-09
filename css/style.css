@@ -1,0 +1,48 @@
+body{margin:0}
+a{color:inherit;text-decoration:none}
+a:hover{text-decoration:underline}
+.wrap{max-width:1160px;margin:0 auto;padding:0 24px;box-sizing:border-box}
+.h2{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:clamp(30px,4.2vw,46px);line-height:1.08;letter-spacing:-.02em;margin:0 0 14px 0}
+.eyebrow{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:13px;letter-spacing:.16em;text-transform:uppercase;margin:0 0 12px 0}
+.btn{display:inline-flex;align-items:center;min-height:48px;padding:0 24px;border-radius:999px;font-weight:600;font-size:16px;box-sizing:border-box}
+.btn:hover{text-decoration:none;opacity:.9}
+.year{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:68px;line-height:1;color:transparent;-webkit-text-stroke:1.5px #C6FF3D}
+.chip{display:inline-block;padding:3px 10px;border-radius:999px;background:rgba(198,255,61,.14);color:#C6FF3D;font-size:13px;font-weight:600}
+.rot{position:relative;display:block;height:1.25em;overflow:hidden;font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:clamp(26px,3.6vw,40px);line-height:1.25;color:#C6FF3D}
+.rot span{position:absolute;left:0;top:0;white-space:nowrap;opacity:0;animation:rot 12s infinite both}
+@keyframes rot{0%{opacity:0;transform:translateY(16px)}4%{opacity:1;transform:none}22%{opacity:1;transform:none}26%{opacity:0;transform:translateY(-16px)}100%{opacity:0}}
+.marq{display:flex;gap:44px;width:max-content;animation:marq 45s linear infinite}
+@keyframes marq{to{transform:translateX(-50%)}}
+.card{transition:translate .25s ease,box-shadow .25s ease}
+.card:hover{translate:0 -6px;box-shadow:0 14px 30px rgba(198,255,61,.22)}
+.card svg{transition:transform .35s ease}
+.card:hover svg{transform:scale(1.06)}
+.btn{transition:translate .2s ease,opacity .2s ease}
+.btn:hover{translate:0 -2px}
+.year{transition:color .3s ease}
+.card:hover .year{color:rgba(198,255,61,.22)}
+.cut{margin-top:-40px;clip-path:polygon(0 40px,100% 0,100% 100%,0 100%)}
+.grid{background-image:linear-gradient(rgba(198,255,61,.07) 1px,transparent 1px),linear-gradient(90deg,rgba(198,255,61,.07) 1px,transparent 1px);background-size:48px 48px}
+.scan{position:absolute;left:0;right:0;top:0;height:2px;background:#C6FF3D;opacity:.55;animation:scan 7s linear infinite}
+@keyframes scan{from{top:0}to{top:100%}}
+.fl{animation:float 6s ease-in-out infinite}
+@keyframes float{0%,100%{translate:0 0}50%{translate:0 -10px}}
+.pulse{transform-box:fill-box;transform-origin:center;animation:pulse 2.4s ease-out infinite}
+@keyframes pulse{0%{transform:scale(1);opacity:.9}100%{transform:scale(4);opacity:0}}
+.cursor{display:inline-block;margin-left:2px;color:#C6FF3D;animation:blink 1s steps(1) infinite}
+@keyframes blink{50%{opacity:0}}
+@keyframes fadeA{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
+@keyframes fadeB{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
+@keyframes rev{from{opacity:0;transform:translateY(36px)}to{opacity:1;transform:none}}
+@supports (animation-timeline: view()){.reveal{animation:rev linear both;animation-timeline:view();animation-range:entry 0% entry 35%}}
+@media (prefers-reduced-motion: reduce){
+.scan,.fl,.pulse,.cursor,.reveal,.fadewrap{animation:none !important}
+.rot span{animation:none;opacity:1}
+.rot span:not(:first-child){display:none}
+.marq{animation:none}
+.card,.btn,.year{transition:none}
+.card:hover,.btn:hover{translate:none}
+.card:hover svg{transform:none}
+}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion: reduce){html{scroll-behavior:auto}}
