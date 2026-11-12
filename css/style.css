@@ -101,6 +101,31 @@ html:has(.cap-dlg[open]){overflow:hidden}
 @media (max-width:600px){.cap-hero{padding:18px 18px 24px}.cap-body{padding:4px 18px 24px}.cap-nav{padding:12px 18px}.cap-go{padding:0 12px}}
 @media (prefers-reduced-motion: reduce){.cap-dlg[open]{animation:none}.cap-wins li{transition:none}.cap-wins li:hover{translate:none}}
 
+/* Topo: selo "aberto a oportunidades", foto com moldura e destaques flutuantes */
+.hero-badge{display:inline-flex;align-items:center;gap:10px;margin:0 0 18px;padding:7px 16px 7px 12px;border:1px solid rgba(198,255,61,.4);border-radius:999px;background:rgba(198,255,61,.08);font-size:14px;font-weight:600;color:#E6E6F2}
+.hero-dot{width:9px;height:9px;border-radius:50%;background:#C6FF3D;animation:ping 2s ease-out infinite}
+@keyframes ping{0%{box-shadow:0 0 0 0 rgba(198,255,61,.65)}70%{box-shadow:0 0 0 10px rgba(198,255,61,0)}100%{box-shadow:0 0 0 0 rgba(198,255,61,0)}}
+.hero-visual{position:relative;flex:1 1 340px;min-width:0;max-width:450px;margin:0 auto;padding:30px 34px 40px 40px;box-sizing:border-box}
+.hero-photo{position:relative;padding:3px;border-radius:28px;background:linear-gradient(140deg,#C6FF3D,#FF3D81 55%,#8B5CF6);box-shadow:0 30px 80px rgba(139,92,246,.35)}
+.hero-photo img{display:block;width:100%;height:auto;aspect-ratio:4/5;object-fit:cover;border-radius:25px;background:#0E0E18}
+.hero-stack{position:absolute;top:0;right:0;width:108px;height:auto;filter:drop-shadow(0 12px 24px rgba(0,0,0,.55))}
+.hero-chip{position:absolute;display:flex;flex-direction:column;gap:2px;padding:11px 16px;border:1px solid rgba(255,255,255,.14);border-radius:16px;background:rgba(14,14,24,.86);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);box-shadow:0 14px 34px rgba(0,0,0,.5);animation:float 6s ease-in-out infinite}
+.hero-chip strong{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:21px;line-height:1.1;color:#C6FF3D}
+.hero-chip span{font-size:13px;line-height:1.35;color:#E6E6F2;white-space:nowrap}
+.hero-chip.c1{left:0;top:16%}
+.hero-chip.c2{right:0;top:50%;animation-delay:-2s}
+.hero-chip.c2 strong{color:#FF3D81}
+.hero-chip.c3{left:8%;bottom:8px;animation-delay:-4s}
+.hero-chip.c3 strong{color:#A78BFA}
+@media (max-width:600px){
+.hero-visual{max-width:360px;padding:24px 20px 34px 22px}
+.hero-stack{width:80px}
+.hero-chip{padding:8px 12px;border-radius:13px}
+.hero-chip strong{font-size:17px}
+.hero-chip span{font-size:12px}
+}
+@media (prefers-reduced-motion: reduce){.hero-dot,.hero-chip{animation:none}}
+
 /* Nomes das camadas do desenho do topo: maiores no celular */
 @media (max-width:600px){.stack text{font-size:23px}}
 
