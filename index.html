@@ -18,7 +18,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/style.css?v=2026111203">
 </head>
 <body style="margin:0;background:#07070D">
 <div id="app"></div>
@@ -93,11 +93,12 @@
 <h2 class="h2" style="color: #FFFFFF; max-width: 720px">{{t.story.title}}</h2>
 <div style="margin-top: 36px; display: flex; flex-wrap: wrap; gap: 20px">
 <sc-for list="{{t.story.chapters}}" as="c" hint-placeholder-count="4">
-<article class="card reveal" style="flex: 1 1 250px; box-sizing: border-box; padding: 26px 24px; background: #0E0E18; border: 1px solid #2A2A40; border-radius: 14px; display: flex; flex-direction: column; gap: 8px">
+<article class="card reveal cap-card" style="position: relative; flex: 1 1 250px; box-sizing: border-box; padding: 26px 24px; background: #0E0E18; border: 1px solid #2A2A40; border-radius: 14px; display: flex; flex-direction: column; gap: 8px">
 <div class="year" aria-hidden="true">{{c.year}}</div>
 <h3 style="margin: 6px 0 0 0; font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 21px; line-height: 1.2; color: #FFFFFF">{{c.title}}</h3>
 <p style="margin: 0; font-size: 15.5px; color: #E6E6F2">{{c.text}}</p>
 <p style="margin: auto 0 0 0; padding-top: 10px; font-size: 14px; font-weight: 600; color: #C6FF3D">{{c.meta}}</p>
+<button type="button" class="cap-open" data-cap="{{c.id}}" aria-haspopup="dialog">{{t.story.labels.more}} <span aria-hidden="true">+</span></button>
 </article>
 </sc-for>
 </div>
@@ -224,8 +225,39 @@
 </section>
 
 </div>
+
+<sc-for list="{{t.story.chapters}}" as="c" hint-placeholder-count="4">
+<dialog class="cap-dlg" id="{{c.id}}" aria-labelledby="{{c.id}}-t" style="--acc: {{c.acc}}">
+<header class="cap-hero">
+<div class="cap-bg" aria-hidden="true" style="background-image: url('assets/img/{{c.bg}}')"></div>
+<div class="cap-top"><span class="cap-step">{{t.story.labels.step}} {{c.n}} {{t.story.labels.of}} {{c.total}}</span><button type="button" class="cap-close" data-close="1" aria-label="{{t.story.labels.close}}"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div>
+<div class="cap-year" aria-hidden="true">{{c.year}}</div>
+<h3 id="{{c.id}}-t" class="cap-title">{{c.title}}</h3>
+<div class="cap-tags"><span class="cap-tag">{{c.co}}</span><span class="cap-tag cap-tag-ghost">{{c.period}}</span></div>
+<p class="cap-role">{{c.role}}</p>
+</header>
+<div class="cap-body">
+<figure class="cap-photo"><img src="assets/img/{{c.photo}}" alt="{{c.photoAlt}}" loading="lazy" onerror="this.closest('figure').remove()"></figure>
+<h4 class="cap-h">{{t.story.labels.exp}}</h4>
+<sc-for list="{{c.body}}" as="q" hint-placeholder-count="2"><p class="cap-p">{{q.text}}</p></sc-for>
+<h4 class="cap-h">{{t.story.labels.wins}}</h4>
+<ol class="cap-wins">
+<sc-for list="{{c.wins}}" as="v" hint-placeholder-count="5">
+<li><span class="cap-num" aria-hidden="true">{{v.n}}</span><strong>{{v.t}}</strong><span class="cap-d">{{v.d}}</span></li>
+</sc-for>
+</ol>
+</div>
+<footer class="cap-nav">
+<div class="cap-nav-side"><sc-if value="{{c.prevId}}" hint-placeholder-val="{{ false }}"><button type="button" class="cap-go" data-goto="{{c.prevId}}" aria-label="{{t.story.labels.prev}}: {{c.prevYear}}"><span aria-hidden="true">←</span> {{c.prevYear}}</button></sc-if></div>
+<div class="cap-dots"><sc-for list="{{c.dots}}" as="d" hint-placeholder-count="4"><button type="button" class="{{d.cls}}" data-goto="{{d.id}}" aria-label="{{d.year}}" aria-current="{{d.cur}}"></button></sc-for></div>
+<div class="cap-nav-side cap-nav-r"><sc-if value="{{c.nextId}}" hint-placeholder-val="{{ false }}"><button type="button" class="cap-go" data-goto="{{c.nextId}}" aria-label="{{t.story.labels.next}}: {{c.nextYear}}">{{c.nextYear}} <span aria-hidden="true">→</span></button></sc-if></div>
+</footer>
+</dialog>
+</sc-for>
 </div>
 </template>
-<script src="js/app.js"></script>
+<script src="js/app.js?v=2026111203"></script>
+<!-- Estatísticas de visitas (GoatCounter, sem cookies). Painel: https://rodrigoportfolio.goatcounter.com -->
+<script data-goatcounter="https://rodrigoportfolio.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
 </body>
 </html>

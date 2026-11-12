@@ -20,6 +20,157 @@ chapters: [
 { year: '2016', title: 'Dos processos aos dados', text: 'Análise administrativa, propostas e licitações. Foi aqui que planilhas, indicadores e dashboards viraram ferramenta de trabalho.', meta: 'ETAL e Lyon Engenharia · 2016–2022' },
 { year: '2022', title: 'Da operação à liderança', text: 'Na Mello Transportes, de analista a coordenador de TI: Microsoft 365, segurança, redes e fornecedores, com a equipe e o negócio em mente.', meta: 'Mello Transportes · 2022–2026' },
 { year: '2026', title: 'Do suporte ao produto', text: 'Fundei a Artech e passei a construir meus próprios sistemas e apps, do problema do cliente até o produto no ar.', meta: 'Artech Soluções & Tecnologia · 2026–hoje' }
+],
+labels: {"more": "Ver detalhes", "exp": "A experiência", "wins": "Conquistas", "close": "Fechar", "step": "Capítulo", "of": "de", "prev": "Capítulo anterior", "next": "Próximo capítulo"},
+details: [
+ {
+  "photo": "cap-2009.jpg",
+  "co": "Grupo Embrasil",
+  "period": "abr/2009 – dez/2015",
+  "role": "Suporte de TI e Assistente Comercial",
+  "photoAlt": "Rodrigo no Grupo Embrasil",
+  "body": [
+   {
+    "text": "Entrei no Grupo Embrasil na área comercial e logo fui chamado para o suporte de TI. Foram quase sete anos aprendendo na prática: atender o usuário, entender o problema por trás do chamado e resolver com calma, do mais simples ao mais complexo."
+   },
+   {
+    "text": "Foi ali também o meu primeiro contato com dados e processos. Comecei a montar dashboards e a mapear rotinas em BPM, olhando para o negócio e não só para a máquina."
+   }
+  ],
+  "wins": [
+   {
+    "t": "Do comercial para a TI",
+    "d": "Transição de assistente comercial para o suporte, levando a visão do cliente para dentro da tecnologia."
+   },
+   {
+    "t": "Suporte de ponta a ponta",
+    "d": "Atendimento de baixa a alta complexidade: estações, rede, sistemas e usuários."
+   },
+   {
+    "t": "Primeiros dashboards",
+    "d": "Indicadores que ajudaram a gestão a enxergar o dia a dia da operação."
+   },
+   {
+    "t": "Processos em BPM",
+    "d": "Mapeamento e melhoria de rotinas internas."
+   },
+   {
+    "t": "Graduação em Administração",
+    "d": "Curso concluído em 2015 (Izabela Hendrix), conciliado com o trabalho."
+   }
+  ]
+ },
+ {
+  "photo": "cap-2016.jpg",
+  "co": "ETAL Prestação de Serviços e Lyon Engenharia",
+  "period": "mar/2016 – set/2022",
+  "role": "Analista Administrativo · Proposal Analyst",
+  "photoAlt": "Rodrigo na fase de processos e dados",
+  "body": [
+   {
+    "text": "Na ETAL, como analista administrativo, cuidei de bases de dados em Excel, de propostas e da negociação com fornecedores. Aprendi que um número bem organizado vale mais do que uma reunião longa."
+   },
+   {
+    "text": "Na Lyon Engenharia, como Proposal Analyst, trabalhei com licitações e propostas comerciais e construí dashboards em Excel para dar visibilidade às oportunidades e aos resultados."
+   }
+  ],
+  "wins": [
+   {
+    "t": "Dados organizados",
+    "d": "Bases em Excel que viraram fonte confiável para as decisões da área."
+   },
+   {
+    "t": "Negociação com fornecedores",
+    "d": "Cotações, comparativos e acompanhamento de contratos."
+   },
+   {
+    "t": "Licitações e propostas",
+    "d": "Preparação de propostas técnicas e comerciais para concorrências."
+   },
+   {
+    "t": "Dashboards comerciais",
+    "d": "Painéis em Excel para acompanhar propostas e resultados."
+   },
+   {
+    "t": "De volta à tecnologia",
+    "d": "Início da graduação em Análise e Desenvolvimento de Sistemas, em 2022."
+   }
+  ]
+ },
+ {
+  "photo": "cap-2022.jpg",
+  "co": "Mello Transportes",
+  "period": "out/2022 – ago/2026",
+  "role": "Analista de TI · Coordenador de TI",
+  "photoAlt": "Rodrigo na Mello Transportes",
+  "body": [
+   {
+    "text": "Entrei na Mello Transportes como analista de TI e, em 2024, assumi a coordenação da área. Numa transportadora, a TI não pode parar: sistemas, rede e comunicação precisam funcionar para a operação seguir rodando."
+   },
+   {
+    "text": "Liderei a equipe de TI e cuidei da infraestrutura, da segurança da informação e dos fornecedores, sempre traduzindo tecnologia em resultado para o negócio."
+   }
+  ],
+  "wins": [
+   {
+    "t": "Promoção a coordenador",
+    "d": "De analista a coordenador de TI em 2024."
+   },
+   {
+    "t": "Microsoft 365 e Exchange Online",
+    "d": "Gestão do ambiente de e-mail e colaboração da empresa."
+   },
+   {
+    "t": "Proteção de endpoints",
+    "d": "Segurança das estações com Bitdefender GravityZone."
+   },
+   {
+    "t": "Monitoramento com Grafana",
+    "d": "Painéis para acompanhar a saúde da infraestrutura."
+   },
+   {
+    "t": "Gestão de fornecedores",
+    "d": "Contratos, orçamentos e acompanhamento dos parceiros de TI."
+   },
+   {
+    "t": "Formado em ADS",
+    "d": "Análise e Desenvolvimento de Sistemas concluído em 2024 (Estácio)."
+   }
+  ]
+ },
+ {
+  "photo": "cap-2026.jpg",
+  "co": "Artech Soluções & Tecnologia",
+  "period": "2026 – atual",
+  "role": "Fundador e consultor de TI",
+  "photoAlt": "Rodrigo na Artech",
+  "body": [
+   {
+    "text": "Em 2026 fundei a Artech Soluções & Tecnologia para juntar tudo o que aprendi: entender o problema do cliente, desenhar a solução e entregar o produto funcionando."
+   },
+   {
+    "text": "Hoje atuo com consultoria de TI, desenvolvimento web e mobile, design gráfico e tráfego pago, e construo os meus próprios produtos."
+   }
+  ],
+  "wins": [
+   {
+    "t": "Empresa própria",
+    "d": "Fundação da Artech Soluções & Tecnologia."
+   },
+   {
+    "t": "App na Google Play",
+    "d": "Graça & Paz, app Flutter publicado na loja oficial."
+   },
+   {
+    "t": "Produtos SaaS",
+    "d": "Sistema de PDV e delivery e CRM para empresas de elétrica, em desenvolvimento."
+   },
+   {
+    "t": "Dados em tempo real",
+    "d": "Painel de apuração eleitoral para a campanha de 2026."
+   }
+  ]
+ }
 ]
 },
 about: {
@@ -28,8 +179,8 @@ photo1: 'Espaço para a sua foto', photo1Alt: 'Rodrigo sorrindo, de braços cruz
 photo2: 'Espaço para a foto da família', photo2Alt: 'Rodrigo com a esposa e os dois filhos, sorrindo em frente a um lago', cap2: 'Minha família',
 faithTitle: 'Fé e serviço',
 faithText: 'Sou cristão e cuido da área de tecnologia da minha igreja. Também lidero jovens ao lado da minha esposa: é ali que aprendo, todos os dias, a ouvir, orientar e servir.',
-photo3: 'Foto na tecnologia da igreja', photo3Alt: 'Espaço reservado para foto na área de tecnologia da igreja', cap3: 'Tecnologia na igreja',
-photo4: 'Foto com os jovens', photo4Alt: 'Espaço reservado para foto com os jovens', cap4: 'Liderança de jovens',
+photo3: 'Foto na tecnologia da igreja', photo3Alt: 'Rodrigo falando ao microfone no palco da igreja, com o telão ao fundo', cap3: 'Tecnologia na igreja',
+photo4: 'Foto com os jovens', photo4Alt: 'Grupo de jovens da igreja reunido no palco do Encontrão da Juventude', cap4: 'Liderança de jovens',
 familyTitle: 'Minha família',
 familyText: 'Sou casado e pai de dois filhos, uma filha e um filho. Minha esposa é minha parceira em tudo: na vida, na fé e na liderança dos jovens. Em casa aprendo, todos os dias, sobre paciência, diálogo e exemplo, os mesmos valores que levo para o trabalho e para a liderança de equipes. Entre o trabalho, a família e os projetos que construo, aprendi a organizar o tempo e a priorizar o que importa. Cada passo na carreira tem um propósito: ser um bom exemplo para os meus filhos e construir, ao lado da minha esposa, um futuro sólido para a nossa família.',
 paras: [
@@ -106,6 +257,157 @@ chapters: [
 { year: '2016', title: 'From processes to data', text: 'Administrative analysis, proposals and tenders. This is where spreadsheets, indicators and dashboards became real working tools.', meta: 'ETAL and Lyon Engenharia · 2016–2022' },
 { year: '2022', title: 'From operations to leadership', text: 'At Mello Transportes, from analyst to IT coordinator: Microsoft 365, security, networks and vendors, with the team and the business in mind.', meta: 'Mello Transportes · 2022–2026' },
 { year: '2026', title: 'From support to product', text: 'I founded Artech and started building my own systems and apps, from the customer problem to a live product.', meta: 'Artech Soluções & Tecnologia · 2026–today' }
+],
+labels: {"more": "See details", "exp": "The experience", "wins": "Achievements", "close": "Close", "step": "Chapter", "of": "of", "prev": "Previous chapter", "next": "Next chapter"},
+details: [
+ {
+  "photo": "cap-2009.jpg",
+  "co": "Grupo Embrasil",
+  "period": "Apr 2009 – Dec 2015",
+  "role": "IT Support and Sales Assistant",
+  "photoAlt": "Rodrigo at Grupo Embrasil",
+  "body": [
+   {
+    "text": "I joined Grupo Embrasil in the sales department and was soon asked to move into IT support. For almost seven years I learned on the job: helping users, understanding the problem behind each ticket and solving it calmly, from simple to complex."
+   },
+   {
+    "text": "It was also my first contact with data and processes. I started building dashboards and mapping routines in BPM, looking at the business and not only at the machines."
+   }
+  ],
+  "wins": [
+   {
+    "t": "From sales to IT",
+    "d": "Moved from sales assistant to IT support, bringing the customer's view into technology."
+   },
+   {
+    "t": "End-to-end support",
+    "d": "Tier 1 to 3 support: workstations, network, systems and users."
+   },
+   {
+    "t": "First dashboards",
+    "d": "Indicators that helped management see day-to-day operations."
+   },
+   {
+    "t": "BPM processes",
+    "d": "Mapping and improving internal routines."
+   },
+   {
+    "t": "Business degree",
+    "d": "Completed in 2015 (Izabela Hendrix) while working full time."
+   }
+  ]
+ },
+ {
+  "photo": "cap-2016.jpg",
+  "co": "ETAL Prestação de Serviços and Lyon Engenharia",
+  "period": "Mar 2016 – Sep 2022",
+  "role": "Administrative Analyst · Proposal Analyst",
+  "photoAlt": "Rodrigo during the processes and data years",
+  "body": [
+   {
+    "text": "At ETAL, as an administrative analyst, I managed Excel databases, proposals and vendor negotiations. I learned that a well-organized number is worth more than a long meeting."
+   },
+   {
+    "text": "At Lyon Engenharia, as a Proposal Analyst, I worked on tenders and sales proposals and built Excel dashboards to give visibility to opportunities and results."
+   }
+  ],
+  "wins": [
+   {
+    "t": "Organized data",
+    "d": "Excel databases that became a reliable source for decisions."
+   },
+   {
+    "t": "Vendor negotiation",
+    "d": "Quotes, comparisons and contract follow-up."
+   },
+   {
+    "t": "Tenders and proposals",
+    "d": "Technical and commercial proposals for bids."
+   },
+   {
+    "t": "Sales dashboards",
+    "d": "Excel dashboards to track proposals and results."
+   },
+   {
+    "t": "Back to technology",
+    "d": "Started a degree in Systems Analysis and Development in 2022."
+   }
+  ]
+ },
+ {
+  "photo": "cap-2022.jpg",
+  "co": "Mello Transportes",
+  "period": "Oct 2022 – Aug 2026",
+  "role": "IT Analyst · IT Coordinator",
+  "photoAlt": "Rodrigo at Mello Transportes",
+  "body": [
+   {
+    "text": "I joined Mello Transportes as an IT analyst and became head of the IT area in 2024. In a transport company, IT cannot stop: systems, network and communication must work to keep operations running."
+   },
+   {
+    "text": "I led the IT team and was responsible for infrastructure, information security and vendors, always turning technology into business results."
+   }
+  ],
+  "wins": [
+   {
+    "t": "Promoted to coordinator",
+    "d": "From IT analyst to IT coordinator in 2024."
+   },
+   {
+    "t": "Microsoft 365 and Exchange Online",
+    "d": "Managed the company's email and collaboration environment."
+   },
+   {
+    "t": "Endpoint protection",
+    "d": "Workstation security with Bitdefender GravityZone."
+   },
+   {
+    "t": "Monitoring with Grafana",
+    "d": "Dashboards to track infrastructure health."
+   },
+   {
+    "t": "Vendor management",
+    "d": "Contracts, budgets and follow-up of IT partners."
+   },
+   {
+    "t": "Systems degree",
+    "d": "Systems Analysis and Development completed in 2024 (Estácio)."
+   }
+  ]
+ },
+ {
+  "photo": "cap-2026.jpg",
+  "co": "Artech Soluções & Tecnologia",
+  "period": "2026 – present",
+  "role": "Founder and IT consultant",
+  "photoAlt": "Rodrigo at Artech",
+  "body": [
+   {
+    "text": "In 2026 I founded Artech Soluções & Tecnologia to bring together everything I had learned: understanding the customer's problem, designing the solution and delivering a working product."
+   },
+   {
+    "text": "Today I work with IT consulting, web and mobile development, graphic design and paid traffic, and I build my own products."
+   }
+  ],
+  "wins": [
+   {
+    "t": "My own company",
+    "d": "Founded Artech Soluções & Tecnologia."
+   },
+   {
+    "t": "App on Google Play",
+    "d": "Graça & Paz, a Flutter app published on the official store."
+   },
+   {
+    "t": "SaaS products",
+    "d": "POS and delivery system and a CRM for electrical companies, in development."
+   },
+   {
+    "t": "Real-time data",
+    "d": "Election results dashboard for the 2026 campaign."
+   }
+  ]
+ }
 ]
 },
 about: {
@@ -114,8 +416,8 @@ photo1: 'Space for your photo', photo1Alt: 'Rodrigo smiling with arms crossed in
 photo2: 'Space for the family photo', photo2Alt: 'Rodrigo with his wife and two children, smiling in front of a lake', cap2: 'My family',
 faithTitle: 'Faith and service',
 faithText: 'I am a Christian and I take care of the technology area at my church. I also lead young people together with my wife, which is where I learn every day to listen, guide and serve.',
-photo3: 'Photo in church technology', photo3Alt: 'Reserved space for a photo in the church technology area', cap3: 'Church technology',
-photo4: 'Photo with the youth group', photo4Alt: 'Reserved space for a photo with the youth group', cap4: 'Youth leadership',
+photo3: 'Photo in church technology', photo3Alt: 'Rodrigo speaking into a microphone on the church stage, with the big screen behind him', cap3: 'Church technology',
+photo4: 'Photo with the youth group', photo4Alt: 'Church youth group gathered on stage at a youth event', cap4: 'Youth leadership',
 familyTitle: 'My family',
 familyText: 'I am married and a father of two, a daughter and a son. My wife is my partner in everything: in life, in faith and in leading young people. At home I learn every day about patience, dialogue and setting an example, the same values I bring to my work and to leading teams. Between work, family and the projects I build, I learned to organize my time and prioritize what matters. Every step in my career has a purpose: to be a good example for my children and to build, together with my wife, a solid future for our family.',
 paras: [
@@ -192,6 +494,157 @@ chapters: [
 { year: '2016', title: 'Des processus aux données', text: "Analyse administrative, propositions et appels d'offres : c'est là que les tableurs, les indicateurs et les tableaux de bord sont devenus de vrais outils de travail.", meta: 'ETAL et Lyon Engenharia · 2016–2022' },
 { year: '2022', title: "De l'exploitation à la direction", text: "Chez Mello Transportes, d'analyste à coordinateur TI : Microsoft 365, sécurité, réseaux et fournisseurs, avec l'équipe et l'entreprise en tête.", meta: 'Mello Transportes · 2022–2026' },
 { year: '2026', title: 'Du support au produit', text: "J'ai fondé Artech et je construis désormais mes propres systèmes et applications, du problème du client jusqu'au produit en ligne.", meta: "Artech Soluções & Tecnologia · 2026–aujourd'hui" }
+],
+labels: {"more": "Voir les détails", "exp": "L'expérience", "wins": "Réalisations", "close": "Fermer", "step": "Chapitre", "of": "sur", "prev": "Chapitre précédent", "next": "Chapitre suivant"},
+details: [
+ {
+  "photo": "cap-2009.jpg",
+  "co": "Grupo Embrasil",
+  "period": "avr. 2009 – déc. 2015",
+  "role": "Support TI et assistant commercial",
+  "photoAlt": "Rodrigo chez Grupo Embrasil",
+  "body": [
+   {
+    "text": "Je suis entré chez Grupo Embrasil au service commercial et on m'a vite proposé de rejoindre le support informatique. Pendant près de sept ans, j'ai appris sur le terrain : aider l'utilisateur, comprendre le problème derrière chaque demande et le résoudre avec calme, du plus simple au plus complexe."
+   },
+   {
+    "text": "C'est aussi là que j'ai découvert les données et les processus. J'ai commencé à créer des tableaux de bord et à cartographier des routines en BPM, en regardant le métier et pas seulement les machines."
+   }
+  ],
+  "wins": [
+   {
+    "t": "Du commercial à l'informatique",
+    "d": "Passage d'assistant commercial au support, avec la vision du client."
+   },
+   {
+    "t": "Support de bout en bout",
+    "d": "Support de niveau 1 à 3 : postes, réseau, systèmes et utilisateurs."
+   },
+   {
+    "t": "Premiers tableaux de bord",
+    "d": "Des indicateurs pour aider la direction à suivre l'activité."
+   },
+   {
+    "t": "Processus en BPM",
+    "d": "Cartographie et amélioration des routines internes."
+   },
+   {
+    "t": "Diplôme en administration",
+    "d": "Obtenu en 2015 (Izabela Hendrix) tout en travaillant."
+   }
+  ]
+ },
+ {
+  "photo": "cap-2016.jpg",
+  "co": "ETAL Prestação de Serviços et Lyon Engenharia",
+  "period": "mars 2016 – sept. 2022",
+  "role": "Analyste administratif · Analyste propositions",
+  "photoAlt": "Rodrigo pendant les années processus et données",
+  "body": [
+   {
+    "text": "Chez ETAL, comme analyste administratif, je gérais des bases de données Excel, des propositions et la négociation avec les fournisseurs. J'ai appris qu'un chiffre bien organisé vaut mieux qu'une longue réunion."
+   },
+   {
+    "text": "Chez Lyon Engenharia, comme analyste propositions, j'ai travaillé sur des appels d'offres et des propositions commerciales et créé des tableaux de bord Excel pour suivre les opportunités et les résultats."
+   }
+  ],
+  "wins": [
+   {
+    "t": "Données organisées",
+    "d": "Des bases Excel devenues une source fiable pour les décisions."
+   },
+   {
+    "t": "Négociation fournisseurs",
+    "d": "Devis, comparatifs et suivi des contrats."
+   },
+   {
+    "t": "Appels d'offres",
+    "d": "Propositions techniques et commerciales pour les consultations."
+   },
+   {
+    "t": "Tableaux de bord commerciaux",
+    "d": "Suivi des propositions et des résultats sous Excel."
+   },
+   {
+    "t": "Retour à la technologie",
+    "d": "Début d'un diplôme en analyse et développement de systèmes en 2022."
+   }
+  ]
+ },
+ {
+  "photo": "cap-2022.jpg",
+  "co": "Mello Transportes",
+  "period": "oct. 2022 – août 2026",
+  "role": "Analyste TI · Coordinateur TI",
+  "photoAlt": "Rodrigo chez Mello Transportes",
+  "body": [
+   {
+    "text": "Je suis entré chez Mello Transportes comme analyste TI et j'ai pris la coordination du service en 2024. Dans une entreprise de transport, l'informatique ne peut pas s'arrêter : systèmes, réseau et communication doivent fonctionner pour que l'activité continue."
+   },
+   {
+    "text": "J'ai dirigé l'équipe TI et j'étais responsable de l'infrastructure, de la sécurité de l'information et des fournisseurs, en transformant toujours la technologie en résultats pour l'entreprise."
+   }
+  ],
+  "wins": [
+   {
+    "t": "Promu coordinateur",
+    "d": "D'analyste à coordinateur TI en 2024."
+   },
+   {
+    "t": "Microsoft 365 et Exchange Online",
+    "d": "Gestion de la messagerie et des outils collaboratifs."
+   },
+   {
+    "t": "Protection des postes",
+    "d": "Sécurité des postes avec Bitdefender GravityZone."
+   },
+   {
+    "t": "Supervision avec Grafana",
+    "d": "Tableaux de bord pour suivre l'état de l'infrastructure."
+   },
+   {
+    "t": "Gestion des fournisseurs",
+    "d": "Contrats, budgets et suivi des partenaires TI."
+   },
+   {
+    "t": "Diplômé en systèmes",
+    "d": "Analyse et développement de systèmes obtenu en 2024 (Estácio)."
+   }
+  ]
+ },
+ {
+  "photo": "cap-2026.jpg",
+  "co": "Artech Soluções & Tecnologia",
+  "period": "2026 – aujourd'hui",
+  "role": "Fondateur et consultant TI",
+  "photoAlt": "Rodrigo chez Artech",
+  "body": [
+   {
+    "text": "En 2026, j'ai fondé Artech Soluções & Tecnologia pour réunir tout ce que j'avais appris : comprendre le problème du client, concevoir la solution et livrer un produit qui fonctionne."
+   },
+   {
+    "text": "Aujourd'hui, je fais du conseil informatique, du développement web et mobile, du design graphique et de la gestion de trafic payant, et je construis mes propres produits."
+   }
+  ],
+  "wins": [
+   {
+    "t": "Ma propre entreprise",
+    "d": "Création d'Artech Soluções & Tecnologia."
+   },
+   {
+    "t": "Application sur Google Play",
+    "d": "Graça & Paz, application Flutter publiée sur le store officiel."
+   },
+   {
+    "t": "Produits SaaS",
+    "d": "Système de caisse et livraison et CRM pour l'électricité, en développement."
+   },
+   {
+    "t": "Données en temps réel",
+    "d": "Tableau de suivi électoral pour la campagne 2026."
+   }
+  ]
+ }
 ]
 },
 about: {
@@ -200,8 +653,8 @@ photo1: 'Espace pour votre photo', photo1Alt: 'Rodrigo souriant, bras croisés, 
 photo2: 'Espace pour la photo de famille', photo2Alt: 'Rodrigo avec son épouse et ses deux enfants, souriant devant un lac', cap2: 'Ma famille',
 faithTitle: 'Foi et service',
 faithText: "Je suis chrétien et je m'occupe de la partie technologique de mon église. J'accompagne aussi des jeunes avec mon épouse : c'est là que j'apprends chaque jour à écouter, guider et servir.",
-photo3: "Photo à la technologie de l'église", photo3Alt: "Espace réservé pour une photo dans la partie technologique de l'église", cap3: "Technologie à l'église",
-photo4: 'Photo avec les jeunes', photo4Alt: 'Espace réservé pour une photo avec les jeunes', cap4: 'Accompagnement des jeunes',
+photo3: "Photo à la technologie de l'église", photo3Alt: "Rodrigo parlant au micro sur la scène de l'église, avec le grand écran derrière lui", cap3: "Technologie à l'église",
+photo4: 'Photo avec les jeunes', photo4Alt: "Groupe de jeunes de l'église réuni sur scène lors d'une rencontre de jeunesse", cap4: 'Accompagnement des jeunes',
 familyTitle: 'Ma famille',
 familyText: "Je suis marié et père de deux enfants, une fille et un garçon. Mon épouse est ma partenaire en tout : dans la vie, dans la foi et dans l'accompagnement des jeunes. À la maison, j'apprends chaque jour la patience, le dialogue et l'exemple, les mêmes valeurs que j'apporte à mon travail et à l'encadrement d'équipes. Entre le travail, la famille et les projets que je construis, j'ai appris à organiser mon temps et à prioriser ce qui compte. Chaque étape de ma carrière a un but : être un bon exemple pour mes enfants et construire, avec mon épouse, un avenir solide pour notre famille.",
 paras: [
@@ -261,6 +714,7 @@ contact: { title: 'Construisons quelque chose ensemble ?', sub: 'Ouvert aux oppo
 
 const TECHS = ['Microsoft 365', 'Exchange Online', 'Active Directory', 'Bitdefender', 'Grafana', 'Power BI', 'SQL Server', 'Python', 'React', 'Firebase', 'Flutter', 'Supabase', 'Claude API'];
 const NAMES = { pt: 'Português', en: 'English', fr: 'Français' };
+const ACCENTS = ['#8B5CF6', '#FF3D81', '#3DA9FF', '#C6FF3D']; // cor de cada capítulo
 const DELAYS = ['0s', '3s', '6s', '9s'];
 const HTML_LANG = { pt: 'pt-BR', en: 'en', fr: 'fr' };
 
@@ -277,6 +731,16 @@ function vals() {
   const lang = state.lang, base = L[lang];
   const t = Object.assign({}, base, {
     hero: Object.assign({}, base.hero, { words: base.hero.words.map((w, i) => ({ text: w, delay: DELAYS[i] })) }),
+    story: Object.assign({}, base.story, { chapters: base.story.chapters.map((c, i, all) => {
+      const det = base.story.details[i], prev = all[i - 1], next = all[i + 1];
+      return Object.assign({}, c, det, {
+        id: 'cap-' + c.year, bg: 'bg-' + c.year + '.jpg', n: i + 1, total: all.length, acc: ACCENTS[i % ACCENTS.length],
+        prevId: prev ? 'cap-' + prev.year : '', prevYear: prev ? prev.year : '',
+        nextId: next ? 'cap-' + next.year : '', nextYear: next ? next.year : '',
+        wins: det.wins.map((w, k) => Object.assign({}, w, { n: String(k + 1).padStart(2, '0') })),
+        dots: all.map((d, j) => ({ id: 'cap-' + d.year, year: d.year, cls: j === i ? 'cap-dot on' : 'cap-dot', cur: j === i ? 'step' : 'false' }))
+      });
+    }) }),
     projects: Object.assign({}, base.projects, { items: base.projects.items.map((it, i) => Object.assign({}, it, { a1: it.icon === 1, a2: it.icon === 2, a3: it.icon === 3, a4: it.icon === 4, a5: it.icon === 5, a6: it.icon === 6 })) })
   });
   const langs = ['pt', 'en', 'fr'].map((c) => {
@@ -331,6 +795,15 @@ function paint() {
   tplEl.content.childNodes.forEach((c) => render(c, v, frag));
   app.replaceChildren(frag);
 }
+/* Conta cliques importantes no GoatCounter (aparecem no painel como eventos) */
+function track(name) {
+  try { if (window.goatcounter && window.goatcounter.count) window.goatcounter.count({ path: name, title: name, event: true }); } catch (e) {}
+}
+const LINK_EVENTS = [
+  ['https://wa.me/', 'clique-whatsapp'], ['mailto:', 'clique-email'], ['https://www.linkedin.com/', 'clique-linkedin'],
+  ['https://github.com/', 'clique-github'], ['https://play.google.com/', 'clique-google-play']
+];
+
 function setMenu(open) {
   const hdr = document.querySelector('.hdr');
   if (!hdr) return;
@@ -339,6 +812,23 @@ function setMenu(open) {
 }
 document.addEventListener('keydown', (e) => { if (e.key === 'Escape') setMenu(false); });
 document.addEventListener('click', (e) => {
+  const link = e.target.closest('a[href]');
+  if (link) { const href = link.getAttribute('href'); const ev = LINK_EVENTS.find(([pre]) => href.startsWith(pre)); if (ev) track(ev[1]); }
+  const op = e.target.closest('.cap-open');
+  if (op) { const d = document.getElementById(op.getAttribute('data-cap')); if (d) { d.showModal(); track('capitulo-' + op.getAttribute('data-cap').slice(4)); } return; }
+  const go = e.target.closest('[data-goto]');
+  if (go) {
+    const atual = go.closest('dialog'), prox = document.getElementById(go.getAttribute('data-goto'));
+    if (prox && prox !== atual) { atual.close(); prox.showModal(); }
+    return;
+  }
+  if (e.target.closest('[data-close]')) { e.target.closest('dialog').close(); return; }
+  if (e.target.tagName === 'DIALOG') {
+    const r = e.target.getBoundingClientRect();
+    const fora = e.clientX < r.left || e.clientX > r.right || e.clientY < r.top || e.clientY > r.bottom;
+    if (fora) e.target.close();
+    return;
+  }
   if (e.target.closest('.menu-btn')) { setMenu(!document.querySelector('.hdr').classList.contains('open')); return; }
   if (e.target.closest('.menu a') || !e.target.closest('.hdr')) setMenu(false);
   const b = e.target.closest('button[data-lang]');

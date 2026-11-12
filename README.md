@@ -62,6 +62,7 @@ Enquanto o arquivo não existir, aparece o espaço reservado. Use fotos com até
 - **Cores e animações:** `css/style.css` e os estilos em `index.html`
   (verde-limão `#C6FF3D`, rosa `#FF3D81`, violeta `#8B5CF6`, fundo `#07070D`).
 - **Contato (WhatsApp, e-mail, LinkedIn, GitHub):** seção `#contato` em `index.html`.
+- **Depois de mudar o CSS ou o JS:** troque o número em `?v=...` nos links de `css/style.css` e `js/app.js` no `index.html` (por exemplo, a data de hoje). Isso obriga os navegadores a baixarem a versão nova em vez de usar a cópia guardada.
 
 ## Publicação
 
