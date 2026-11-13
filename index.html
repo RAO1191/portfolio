@@ -18,7 +18,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/style.css?v=2026111301">
+<link rel="stylesheet" href="css/style.css?v=2026111313">
 </head>
 <body style="margin:0;background:#07070D">
 <div id="app"></div>
@@ -97,7 +97,7 @@
 <p class="eyebrow" style="color: #C6FF3D">{{t.story.eyebrow}}</p>
 <h2 class="h2" style="color: #FFFFFF; max-width: 720px">{{t.story.title}}</h2>
 <div style="margin-top: 36px; display: flex; flex-wrap: wrap; gap: 20px">
-<sc-for list="{{t.story.chapters}}" as="c" hint-placeholder-count="4">
+<sc-for list="{{t.story.chapters}}" as="c" hint-placeholder-count="5">
 <article class="card reveal cap-card" style="position: relative; flex: 1 1 250px; box-sizing: border-box; padding: 26px 24px; background: #0E0E18; border: 1px solid #2A2A40; border-radius: 14px; display: flex; flex-direction: column; gap: 8px">
 <div class="year" aria-hidden="true">{{c.year}}</div>
 <h3 style="margin: 6px 0 0 0; font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 21px; line-height: 1.2; color: #FFFFFF">{{c.title}}</h3>
@@ -231,7 +231,7 @@
 
 </div>
 
-<sc-for list="{{t.story.chapters}}" as="c" hint-placeholder-count="4">
+<sc-for list="{{t.story.chapters}}" as="c" hint-placeholder-count="5">
 <dialog class="cap-dlg" id="{{c.id}}" aria-labelledby="{{c.id}}-t" style="--acc: {{c.acc}}">
 <header class="cap-hero">
 <div class="cap-bg" aria-hidden="true" style="background-image: url('assets/img/{{c.bg}}')"></div>
@@ -242,9 +242,12 @@
 <p class="cap-role">{{c.role}}</p>
 </header>
 <div class="cap-body">
-<figure class="cap-photo"><img src="assets/img/{{c.photo}}" alt="{{c.photoAlt}}" loading="lazy" onerror="this.closest('figure').remove()"></figure>
+<figure class="{{c.photoCls}}"><img src="assets/img/{{c.photo}}" alt="{{c.photoAlt}}" loading="lazy" onerror="this.closest('figure').remove()"><sc-if value="{{c.photoCap}}" hint-placeholder-val="{{ false }}"><figcaption class="cap-cap">{{c.photoCap}}</figcaption></sc-if></figure>
+<sc-if value="{{c.hasStats}}" hint-placeholder-val="{{ false }}"><h4 class="cap-h">{{t.story.labels.nums}}</h4><div class="cap-stats"><sc-for list="{{c.stats}}" as="k" hint-placeholder-count="3"><div class="cap-stat"><strong>{{k.n}}</strong><span>{{k.l}}</span></div></sc-for></div></sc-if>
 <h4 class="cap-h">{{t.story.labels.exp}}</h4>
 <sc-for list="{{c.body}}" as="q" hint-placeholder-count="2"><p class="cap-p">{{q.text}}</p></sc-for>
+<sc-if value="{{c.hasAreas}}" hint-placeholder-val="{{ false }}"><h4 class="cap-h">{{t.story.labels.areas}}</h4><div class="cap-areas"><sc-for list="{{c.areas}}" as="r" hint-placeholder-count="3"><div class="cap-area"><strong>{{r.t}}</strong><ul><sc-for list="{{r.items}}" as="it" hint-placeholder-count="6"><li>{{it}}</li></sc-for></ul></div></sc-for></div></sc-if>
+<sc-if value="{{c.hasSteps}}" hint-placeholder-val="{{ false }}"><h4 class="cap-h">{{t.story.labels.path}}</h4><ol class="cap-steps"><sc-for list="{{c.steps}}" as="g" hint-placeholder-count="3"><li><span class="cap-sy">{{g.y}}</span><strong class="cap-st">{{g.t}}</strong><span class="cap-sd">{{g.d}}</span></li></sc-for></ol></sc-if>
 <h4 class="cap-h">{{t.story.labels.wins}}</h4>
 <ol class="cap-wins">
 <sc-for list="{{c.wins}}" as="v" hint-placeholder-count="5">
@@ -261,7 +264,7 @@
 </sc-for>
 </div>
 </template>
-<script src="js/app.js?v=2026111301"></script>
+<script src="js/app.js?v=2026111317"></script>
 <!-- Estatísticas de visitas (GoatCounter, sem cookies). Painel: https://rodrigoportfolio.goatcounter.com -->
 <script data-goatcounter="https://rodrigoportfolio.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
 </body>
