@@ -389,8 +389,8 @@ stats: [
 },
 projects: {
 labels: {"nums": "Em números", "kicker": "Projeto", "about": "O projeto", "features": "Funcionalidades"},
-eyebrow: 'Projetos', title: 'Coisas que eu construí',
-intro: 'Cada projeto parte de um problema real. Os que ainda estão em desenvolvimento aparecem sinalizados.',
+eyebrow: 'Projetos', title: 'Projetos que desenvolvi',
+intro: 'Cada projeto parte de um problema real. O selo mostra se ele está no ar, em uso privado ou em desenvolvimento. Todos foram desenvolvidos com VS Code e Claude Code, unindo a minha experiência com a velocidade da IA. Clique em Ver detalhes para conhecer cada um.',
 items: [
 { icon: 2, name: 'SaaS de PDV e delivery', status: 'Em desenvolvimento', desc: 'Sistema multi-cliente para pizzarias e hamburguerias: pedidos por telefone, WhatsApp e app, pagamentos Pix e cartão, estoque e app do motoboy.', tags: 'SaaS · Apps móveis · Pix' },
 { icon: 3, name: 'CRM para elétrica e automação', status: 'Em desenvolvimento', desc: 'SaaS multiempresa com contas a pagar e receber e app offline para técnicos de campo.', tags: 'SaaS · Financeiro · Modo offline' },
@@ -408,7 +408,7 @@ groups: [
 { name: 'Infraestrutura e cloud', items: 'Microsoft 365 · Exchange Online · Active Directory / Azure AD · Windows Server · redes e switches' },
 { name: 'Cibersegurança', items: 'Bitdefender GravityZone · patches e vulnerabilidades · resposta a incidentes' },
 { name: 'Dados e BI', items: 'Power BI · SQL Server · Python · Excel e VBA · Grafana' },
-{ name: 'Desenvolvimento e IA', items: 'React · Firebase · Flutter · Supabase · Git e GitHub · Claude API' },
+{ name: 'Desenvolvimento e IA', items: 'React · Firebase · Flutter · Supabase · Git e GitHub · VS Code · Claude Code · Claude API' },
 { name: 'Gestão', items: 'Projetos de TI · fornecedores e contratos · orçamentos e ROI · BPM · liderança de equipes' }
 ]
 },
@@ -820,8 +820,8 @@ stats: [
 },
 projects: {
 labels: {"nums": "In numbers", "kicker": "Project", "about": "The project", "features": "Features"},
-eyebrow: 'Projects', title: 'Things I have built',
-intro: 'Each project starts from a real problem. The ones still under development are labeled.',
+eyebrow: 'Projects', title: "Projects I've built",
+intro: 'Each project starts from a real problem. The label shows whether it is live, in private use or in development. All of them were built with VS Code and Claude Code, combining my experience with the speed of AI. Click See details to learn more.',
 items: [
 { icon: 2, name: 'POS and delivery SaaS', status: 'In development', desc: 'Multi-client system for pizzerias and burger shops: phone, WhatsApp and app orders, Pix and card payments, inventory and a delivery-driver app.', tags: 'SaaS · Mobile apps · Pix' },
 { icon: 3, name: 'CRM for electrical and automation companies', status: 'In development', desc: 'Multi-company SaaS with accounts payable and receivable and an offline app for field technicians.', tags: 'SaaS · Finance · Offline mode' },
@@ -839,7 +839,7 @@ groups: [
 { name: 'Infrastructure and cloud', items: 'Microsoft 365 · Exchange Online · Active Directory / Azure AD · Windows Server · networks and switches' },
 { name: 'Cybersecurity', items: 'Bitdefender GravityZone · patching and vulnerabilities · incident response' },
 { name: 'Data and BI', items: 'Power BI · SQL Server · Python · Excel and VBA · Grafana' },
-{ name: 'Development and AI', items: 'React · Firebase · Flutter · Supabase · Git and GitHub · Claude API' },
+{ name: 'Development and AI', items: 'React · Firebase · Flutter · Supabase · Git and GitHub · VS Code · Claude Code · Claude API' },
 { name: 'Management', items: 'IT projects · vendors and contracts · budgets and ROI · BPM · team leadership' }
 ]
 },
@@ -1251,8 +1251,8 @@ stats: [
 },
 projects: {
 labels: {"nums": "En chiffres", "kicker": "Projet", "about": "Le projet", "features": "Fonctionnalités"},
-eyebrow: 'Projets', title: "Ce que j'ai construit",
-intro: "Chaque projet part d'un problème réel. Ceux qui sont encore en développement sont signalés.",
+eyebrow: 'Projets', title: "Projets que j'ai développés",
+intro: "Chaque projet part d'un problème réel. Le badge indique s'il est en ligne, en usage privé ou en développement. Tous ont été développés avec VS Code et Claude Code, en alliant mon expérience à la rapidité de l'IA. Cliquez sur Voir les détails pour en savoir plus.",
 items: [
 { icon: 2, name: 'SaaS de caisse et livraison', status: 'En développement', desc: "Système multi-clients pour pizzerias et burgers : commandes par téléphone, WhatsApp et application, paiements Pix et carte, stocks et application pour livreurs.", tags: 'SaaS · Applications mobiles · Pix' },
 { icon: 3, name: 'CRM pour électricité et automatisation', status: 'En développement', desc: "SaaS multi-entreprises avec comptabilité fournisseurs et clients et application hors ligne pour les techniciens de terrain.", tags: 'SaaS · Finance · Mode hors ligne' },
@@ -1270,7 +1270,7 @@ groups: [
 { name: 'Infrastructure et cloud', items: 'Microsoft 365 · Exchange Online · Active Directory / Azure AD · Windows Server · réseaux et commutateurs' },
 { name: 'Cybersécurité', items: 'Bitdefender GravityZone · correctifs et vulnérabilités · réponse aux incidents' },
 { name: 'Données et BI', items: 'Power BI · SQL Server · Python · Excel et VBA · Grafana' },
-{ name: 'Développement et IA', items: 'React · Firebase · Flutter · Supabase · Git et GitHub · API Claude' },
+{ name: 'Développement et IA', items: 'React · Firebase · Flutter · Supabase · Git et GitHub · VS Code · Claude Code · API Claude' },
 { name: 'Gestion', items: "Projets TI · fournisseurs et contrats · budgets et ROI · BPM · encadrement d'équipes" }
 ]
 },
@@ -1294,7 +1294,7 @@ contact: { title: 'Construisons quelque chose ensemble ?', sub: 'Ouvert aux oppo
 }
 };
 
-const TECHS = ['Microsoft 365', 'Exchange Online', 'Active Directory', 'Bitdefender', 'Grafana', 'Power BI', 'SQL Server', 'Python', 'React', 'Firebase', 'Flutter', 'Supabase', 'Claude API'];
+const TECHS = ['Microsoft 365', 'Exchange Online', 'Active Directory', 'Bitdefender', 'Grafana', 'Power BI', 'SQL Server', 'Python', 'React', 'Firebase', 'Flutter', 'Supabase', 'VS Code', 'Claude Code', 'Claude API'];
 const NAMES = { pt: 'Português', en: 'English', fr: 'Français' };
 const ACCENTS = ['#8B5CF6', '#FF3D81', '#FFB020', '#3DA9FF', '#C6FF3D']; // cor de cada capítulo
 const DELAYS = ['0s', '3s', '6s', '9s'];
