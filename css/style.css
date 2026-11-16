@@ -112,6 +112,15 @@ html{scroll-behavior:smooth;scroll-padding-top:76px}
 .cap-sy{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:14px;letter-spacing:.08em;color:var(--acc)}
 .cap-st{color:#FFFFFF;font-size:16.5px;line-height:1.3}
 .cap-sd{font-size:14.5px;line-height:1.5;color:#A9A9C4}
+.prj-title{margin-top:10px}
+.prj-link{margin-top:16px;text-decoration:none;border-color:var(--acc);color:var(--acc)}
+.cap-wins.prj-feats{grid-template-columns:repeat(auto-fill,minmax(280px,1fr))}
+.prj-shots{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px;margin-top:24px}
+.prj-shots:empty{display:none}
+.prj-shot{margin:0;display:flex;flex-direction:column}
+.prj-shot img{display:block;width:100%;height:auto;border-radius:12px;background:#07070D;border:1px solid #2A2A40}
+.prj-shot.wide{grid-column:1/-1}
+.cap-card a{position:relative;z-index:2}
 .cap-nav{position:sticky;bottom:0;display:flex;align-items:center;justify-content:space-between;gap:12px;padding:14px 30px;border-top:1px solid #2A2A40;background:rgba(11,11,20,.94);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px)}
 .cap-nav-side{flex:1;display:flex}
 .cap-nav-r{justify-content:flex-end}

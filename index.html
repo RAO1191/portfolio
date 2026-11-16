@@ -18,7 +18,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/style.css?v=2026111313">
+<link rel="stylesheet" href="css/style.css?v=2026111505">
 </head>
 <body style="margin:0;background:#07070D">
 <div id="app"></div>
@@ -161,7 +161,7 @@
 <p style="margin: 0 0 32px 0; max-width: 680px; color: #A9A9C4">{{t.projects.intro}}</p>
 <div style="display: flex; flex-wrap: wrap; gap: 20px">
 <sc-for list="{{t.projects.items}}" as="p" hint-placeholder-count="6">
-<article class="card reveal" style="flex: 1 1 320px; box-sizing: border-box; padding: 18px; background: #0E0E1C; border: 1px solid #2A2A40; border-radius: 14px; display: flex; flex-direction: column; gap: 12px">
+<article class="{{p.cardCls}}" style="flex: 1 1 320px; box-sizing: border-box; padding: 18px; background: #0E0E1C; border: 1px solid #2A2A40; border-radius: 14px; display: flex; flex-direction: column; gap: 12px">
 <div style="height: 150px; border-radius: 10px; background: #171730; display: flex; align-items: center; justify-content: center">
 <sc-if value="{{p.a1}}" hint-placeholder-val="{{ false }}"><svg viewBox="0 0 200 110" width="190" height="104" aria-hidden="true"><rect x="72" y="6" width="56" height="98" rx="9" fill="#0B0B14" stroke="#C6FF3D" stroke-width="2.5"/><rect x="82" y="66" width="8" height="28" rx="2" fill="#8B5CF6"/><rect x="96" y="52" width="8" height="42" rx="2" fill="#8B5CF6"/><rect x="110" y="38" width="8" height="56" rx="2" fill="#8B5CF6"/><rect x="82" y="20" width="36" height="8" rx="4" fill="#FF3D81"/><rect x="82" y="32" width="22" height="6" rx="3" fill="#3A3A58"/></svg></sc-if>
 <sc-if value="{{p.a2}}" hint-placeholder-val="{{ false }}"><svg viewBox="0 0 200 110" width="190" height="104" aria-hidden="true"><rect x="30" y="10" width="140" height="90" rx="9" fill="#0B0B14" stroke="#C6FF3D" stroke-width="2.5"/><rect x="42" y="22" width="70" height="8" rx="4" fill="#8B5CF6"/><rect x="42" y="38" width="90" height="6" rx="3" fill="#3A3A58"/><rect x="42" y="50" width="80" height="6" rx="3" fill="#3A3A58"/><rect x="42" y="62" width="86" height="6" rx="3" fill="#3A3A58"/><rect x="42" y="78" width="40" height="12" rx="6" fill="#8B5CF6"/><circle cx="146" cy="40" r="12" fill="#FF3D81"/><path d="M140 40l4 4 8-9" stroke="#C6FF3D" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg></sc-if>
@@ -169,6 +169,8 @@
 <sc-if value="{{p.a4}}" hint-placeholder-val="{{ false }}"><svg viewBox="0 0 200 110" width="190" height="104" aria-hidden="true"><rect x="72" y="6" width="56" height="98" rx="9" fill="#0B0B14" stroke="#C6FF3D" stroke-width="2.5"/><rect x="81" y="18" width="16" height="16" rx="4" fill="#8B5CF6"/><rect x="103" y="18" width="16" height="16" rx="4" fill="#FF3D81"/><rect x="81" y="40" width="16" height="16" rx="4" fill="#FF3D81"/><rect x="103" y="40" width="16" height="16" rx="4" fill="#8B5CF6"/><rect x="81" y="66" width="38" height="8" rx="4" fill="#3A3A58"/><rect x="81" y="80" width="26" height="8" rx="4" fill="#3A3A58"/></svg></sc-if>
 <sc-if value="{{p.a5}}" hint-placeholder-val="{{ false }}"><svg viewBox="0 0 200 110" width="190" height="104" aria-hidden="true"><rect x="20" y="8" width="160" height="82" rx="8" fill="#0B0B14" stroke="#C6FF3D" stroke-width="2.5"/><rect x="38" y="62" width="14" height="18" rx="2" fill="#FF3D81"/><rect x="60" y="48" width="14" height="32" rx="2" fill="#8B5CF6"/><rect x="82" y="34" width="14" height="46" rx="2" fill="#FF3D81"/><rect x="104" y="22" width="14" height="58" rx="2" fill="#8B5CF6"/><rect x="126" y="40" width="14" height="40" rx="2" fill="#FF3D81"/><rect x="148" y="54" width="14" height="26" rx="2" fill="#8B5CF6"/><rect x="88" y="96" width="24" height="6" rx="3" fill="#C6FF3D"/></svg></sc-if>
 <sc-if value="{{p.a6}}" hint-placeholder-val="{{ false }}"><svg viewBox="0 0 200 110" width="190" height="104" aria-hidden="true"><line x1="100" y1="55" x2="40" y2="25" stroke="#C6FF3D" stroke-width="2.5"/><line x1="100" y1="55" x2="160" y2="25" stroke="#C6FF3D" stroke-width="2.5"/><line x1="100" y1="55" x2="40" y2="88" stroke="#C6FF3D" stroke-width="2.5"/><line x1="100" y1="55" x2="160" y2="88" stroke="#C6FF3D" stroke-width="2.5"/><circle cx="100" cy="55" r="16" fill="#8B5CF6"/><circle cx="40" cy="25" r="11" fill="#0B0B14" stroke="#C6FF3D" stroke-width="2.5"/><circle cx="160" cy="25" r="11" fill="#0B0B14" stroke="#C6FF3D" stroke-width="2.5"/><circle cx="40" cy="88" r="11" fill="#0B0B14" stroke="#C6FF3D" stroke-width="2.5"/><circle cx="160" cy="88" r="11" fill="#0B0B14" stroke="#C6FF3D" stroke-width="2.5"/></svg></sc-if>
+<sc-if value="{{p.a7}}" hint-placeholder-val="{{ false }}"><svg viewBox="0 0 200 110" width="190" height="104" aria-hidden="true"><rect x="72" y="6" width="56" height="98" rx="9" fill="#0B0B14" stroke="#C6FF3D" stroke-width="2.5"/><rect x="79" y="15" width="42" height="68" rx="4" fill="#141428"/><path d="M79 40 L121 32 M79 62 L121 56 M95 15 L99 83" stroke="#2A2A40" stroke-width="2"/><path d="M85 74 C92 62, 88 52, 98 48 S112 36, 113 26" fill="none" stroke="#FF3D81" stroke-width="2.5" stroke-dasharray="4 3" stroke-linecap="round"/><circle cx="85" cy="74" r="3.5" fill="#8B5CF6"/><path d="M113 18 a6 6 0 0 1 6 6 c0 5 -6 10 -6 10 s-6 -5 -6 -10 a6 6 0 0 1 6 -6z" fill="#C6FF3D"/><circle cx="113" cy="24" r="2.2" fill="#0B0B14"/><rect x="88" y="91" width="24" height="4" rx="2" fill="#3A3A58"/></svg></sc-if>
+<sc-if value="{{p.a8}}" hint-placeholder-val="{{ false }}"><svg viewBox="0 0 200 110" width="190" height="104" aria-hidden="true"><rect x="26" y="8" width="148" height="94" rx="9" fill="#0B0B14" stroke="#C6FF3D" stroke-width="2.5"/><line x1="26" y1="26" x2="174" y2="26" stroke="#2A2A40" stroke-width="2"/><circle cx="38" cy="17" r="3" fill="#FF3D81"/><circle cx="48" cy="17" r="3" fill="#C6FF3D"/><circle cx="58" cy="17" r="3" fill="#8B5CF6"/><rect x="40" y="38" width="64" height="9" rx="4" fill="#8B5CF6"/><rect x="40" y="53" width="48" height="6" rx="3" fill="#3A3A58"/><rect x="40" y="66" width="34" height="12" rx="6" fill="#C6FF3D"/><rect x="116" y="36" width="44" height="50" rx="6" fill="#171730" stroke="#FF3D81" stroke-width="2"/><path d="M126 74 L136 58 L144 68 L150 62 L156 74 Z" fill="#FF3D81"/></svg></sc-if>
 </div>
 <div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px"><h3 style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 20px; line-height: 1.25; color: #FFFFFF">{{p.name}}</h3><span class="chip">{{p.status}}</span></div>
 <p style="margin: 0; font-size: 15px; color: #A9A9C4">{{p.desc}}</p>
@@ -176,6 +178,7 @@
 <sc-if value="{{p.link}}" hint-placeholder-val="{{ false }}">
 <a href="{{p.link}}" target="_blank" rel="noopener" style="margin-top: auto; font-size: 14px; font-weight: 600; color: #C6FF3D">{{p.linkLabel}}</a>
 </sc-if>
+<sc-if value="{{p.hasDet}}" hint-placeholder-val="{{ false }}"><button type="button" class="cap-open" data-cap="{{p.id}}" aria-haspopup="dialog">{{t.story.labels.more}} <span aria-hidden="true">+</span></button></sc-if>
 </article>
 </sc-for>
 </div>
@@ -262,9 +265,28 @@
 </footer>
 </dialog>
 </sc-for>
+<sc-for list="{{t.projects.dlgs}}" as="d" hint-placeholder-count="1">
+<dialog class="cap-dlg" id="{{d.id}}" aria-labelledby="{{d.id}}-t" style="--acc: {{d.acc}}">
+<header class="cap-hero">
+<div class="cap-top"><span class="cap-step">{{t.projects.labels.kicker}}</span><button type="button" class="cap-close" data-close="1" aria-label="{{t.story.labels.close}}"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div>
+<h3 id="{{d.id}}-t" class="cap-title prj-title">{{d.name}}</h3>
+<div class="cap-tags"><span class="cap-tag">{{d.status}}</span><span class="cap-tag cap-tag-ghost">{{d.tags}}</span></div>
+<p class="cap-role">{{d.role}}</p>
+<sc-if value="{{d.link}}" hint-placeholder-val="{{ false }}"><a class="cap-go prj-link" href="{{d.link}}" target="_blank" rel="noopener">{{d.linkLabel}}</a></sc-if>
+</header>
+<div class="cap-body">
+<div class="prj-shots"><sc-for list="{{d.shots}}" as="f" hint-placeholder-count="3"><figure class="{{f.cls}}"><img src="assets/img/{{f.src}}" alt="{{f.alt}}" loading="lazy" onerror="this.closest('figure').remove()"><sc-if value="{{f.cap}}" hint-placeholder-val="{{ false }}"><figcaption class="cap-cap">{{f.cap}}</figcaption></sc-if></figure></sc-for></div>
+<sc-if value="{{d.hasStats}}" hint-placeholder-val="{{ false }}"><h4 class="cap-h">{{t.projects.labels.nums}}</h4><div class="cap-stats"><sc-for list="{{d.stats}}" as="k" hint-placeholder-count="3"><div class="cap-stat"><strong>{{k.n}}</strong><span>{{k.l}}</span></div></sc-for></div></sc-if>
+<h4 class="cap-h">{{t.projects.labels.about}}</h4>
+<sc-for list="{{d.body}}" as="q" hint-placeholder-count="2"><p class="cap-p">{{q.text}}</p></sc-for>
+<h4 class="cap-h">{{t.projects.labels.features}}</h4>
+<ol class="cap-wins prj-feats"><sc-for list="{{d.features}}" as="v" hint-placeholder-count="4"><li><span class="cap-num" aria-hidden="true">{{v.n}}</span><strong>{{v.t}}</strong><span class="cap-d">{{v.d}}</span></li></sc-for></ol>
+</div>
+</dialog>
+</sc-for>
 </div>
 </template>
-<script src="js/app.js?v=2026111317"></script>
+<script src="js/app.js?v=2026111511"></script>
 <!-- Estatísticas de visitas (GoatCounter, sem cookies). Painel: https://rodrigoportfolio.goatcounter.com -->
 <script data-goatcounter="https://rodrigoportfolio.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
 </body>
